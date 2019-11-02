@@ -8,4 +8,12 @@ public class ElectricSpot extends Spot {
     public ElectricSpot() {
         super(SpotType.ELECTRIC);
     }
+
+    public ChargingPanel getChargingPanel() {
+        return chargingPanel;
+    }
+
+    public void setChargingPanel(ChargingPanel chargingPanel) {
+        this.chargingPanel = chargingPanel;
+    }
 }

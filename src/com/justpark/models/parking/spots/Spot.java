@@ -7,4 +7,16 @@ public abstract class Spot {
     public Spot(SpotType type) {
         this.type = type;
     }
+
+    public SpotType getType() {
+        return type;
+    }
+
+    public SpotStatus getStatus() {
+        return status;
+    }
+
+    public void setStatus(SpotStatus status) {
+        this.status = status;
+    }
 }
