@@ -1,0 +1,4 @@
+https://medium.com/@andrewhowdencom/anatomy-of-a-good-commit-message-acd9c4490437
+https://www.slideshare.net/TarinGamberini/commit-messages-goodpractices
+
+https://github.com/AgarwalPragy/MachineCodingParkingLot
