@@ -1,6 +1,7 @@
 package com.justpark;
 
 import com.justpark.models.Address;
+import com.justpark.models.Person;
 
 public class Main {
     public static void main(String[] args) {
@@ -13,6 +14,12 @@ public class Main {
                 .streetAddress("Amanora Chambers, IB Office")
                 .build();
 
+        Person atul = new Person.Builder("Atul")
+                .phoneNumber("sfsdf")
+                .build();
+
+        System.out.println(a.toString());
+        System.out.println(atul.toString());
     }
 }
 

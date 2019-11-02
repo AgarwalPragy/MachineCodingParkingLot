@@ -8,4 +8,9 @@ public class CustomerInfoPortal extends Electronics implements PaymentEnabled {
     public void processTicket(Ticket ticket) {
 
     }
+
+    @Override
+    public void processPayment() {
+
+    }
 }
